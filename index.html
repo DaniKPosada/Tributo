@@ -16,12 +16,13 @@
         header{color:white}
         body { color: black }
         main { background-color: #EB771120}
-        nav {background-color: #40D69750;}
-        td{font-family: 'Mulish Regular', sans-serif;}
+        td{font-family: 'Mulish Regular', sans-serif;color: black;}
         p{font-family: 'Mulish', sans-serif;;}
-        footer{background-color: #FCDD09;font-family: 'Mulish', sans-serif;}
-        section {display: flex;justify-content: space-between;;align-items:center}
-        article{font-family: 'Mulish', sans-serif;}     
+        footer{background-color: #FCDD09;font-family: 'Mulish', sans-serif;justify-content: space-between;}
+        section {display: flex;justify-content: space-between;align-items:center}
+        article{font-family: 'Mulish', sans-serif;}    
+        header{background-color: #40D69750;} 
+        table{line-height:"0";}
     </style>
     <title>Musico Andino</title>
 </head>
@@ -31,27 +32,26 @@
         <div class="mySlides w3-display-container w3-center">
             <img src=".img/Encabezado.png" style="width:100%">
         </div>
-
-        <!-- Navbar (placed at the bottom of the header image) -->
-        <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
-            <a href="#" class="w3-bar-item w3-button">Inicio</a>
-            <a href="#" class="w3-bar-item w3-button">Biografía</a>
-            <a href="#" class="w3-bar-item w3-button">Música Andina</a>
-            <a href="#" class="w3-bar-item w3-button">Tienda</a>
-        </div>
+        <table border="3" align="center" cellspacing="0" cellpadding="20" bordercolor="#40D697" >
+            <tr>
+                <td><font size="25">Inicio</font></td>
+                <td><font size="25">Biografía</font></td>
+                <td><font size="25">Música Andina</font></td>
+                <td><font size="25">Tienda</font></td>
+            </tr>
+        </table>
     </header>
-    
-    <main>
-        <p><font size="25">Hola Soy Juan carlos Canchachí. Mis amigos me conocen como Wayra Valentín. Soy músico, profesor y hago instrumentos.<br/>
-            Bienvenidx a mi web Tributo.</font></p>
+    <main margin="0">
+        <palign="center"><font size="25"><strong>Hola Soy Juan carlos Canchachí. Mis amigos me conocen como Wayra Valentín. Soy músico, profesor y hago instrumentos.<br/>
+            Bienvenidx a mi web Tributo.</strong></font></p>
         <section>
             <article align="center"><a href="Presentaciones/Presentaciones.html"> <img src=".img/Ellipse 4.png" alt="Hombre tocando la quena"><font size="25"><strong><br/>Presentaciones<br/> musicales en vivo</strong></font></a></article>
             <article align="center"><a href="Tienda/Tienda.html"><img src=".img/Ellipse 5.png" alt="Hombre sosteniendo una enorme zampoña"><font size="25"><strong><br/>Fabricación<br/> de Intrumentos</strong></font></a></article>
             <article align="center"><a href="Clases/Clases.html"><img src=".img/Ellipse 6.png" alt="Agrupación de música andina uniformada con ruana roja"><font size="25"><strong><br/>Clases<br/> personalizadas</strong></font></a></article>
         </section>
-        <section>
-            <article align="left"><a href="Quechua/quechua.html"><img src=".img/Tikray.png" alt="boton degradado con whipala para traducir al quechua"></a></article>
-        </section>
+        <div align="center">
+            <a href="Quechua/quechua.html"><img src=".img/Tikray.png" style="width:20%" alt="boton degradado con whipala para traducir al quechua"></a>
+        </div>
     </main>
     <footer>
         <section>
