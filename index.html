@@ -17,23 +17,21 @@
         main { background-color: #EB771120}
         nav {background-color: #40D69750;}
         td{font-family: 'Mulish Regular', sans-serif;}
-        p{font-family: 'Mulish Bold', sans-serif;}
-        
+        p{font-family: 'Mulish', sans-serif;}
+        footer{background-color: #FCDD09;font-family: 'Mulish', sans-serif;}
+        section {display: flex;}
         
     </style>
-    <title>Quenista Musico Andino</title>
+    <title>Musico Andino</title>
 </head>
 <body>
     <header>
         <div class="contenedor">
-            <img src=".img/arcoiris.jpg" alt="Vinicunca Montañas de los 7 Colores">
-            <div class="texto-encima"><font size="80"><h1>De Los Andes Para el Mundo<br>Wayra Valentín</h1></font></div>
-            <div class="centrado"></div>
+            <img src=".img/Encabezado.png" alt="Vinicunca Montañas de los 7 Colores" display="block" display="inline-block">
         </div>
     </header>
     <nav>
-        <!-- No se como hacer una barra de navegacion -->
-        <table border="3" align="center" cellspacing="0" cellpadding="5" bordercolor="#40D697">
+        <table border="3" align="center" cellspacing="0" cellpadding="20" bordercolor="#40D697">
             <tr>
                 <td><font size="25">Inicio</font></td>
                 <td><font size="25">Biografía</font></td>
@@ -43,30 +41,23 @@
         </table>
     </nav>
     <main>
-        <p align="center"><font size="30">Hola Soy Juan carlos Canchachí. Mis amigos me conocen como Wayra Valentín. Soy músico, profesor y hago instrumentos.</font><br/>
-        <font size="30">Bienvenidx a mi web Tributo.</font><br/></p>
-        <ul>
-            <li><a href="Presentaciones/Presentaciones.html"> <img src=".img/presentaciones.jpg" alt="Hombre tocando la quena"><h2>Presentaciones musicales en vivo</h2></a></li>
-            <li><a href="Tienda/Tienda.html"><img src=".img/fabricacion.jpeg" alt="Hombre sosteniendo una enorme zampoña"><h2>Fabricación de Intrumentos</h2></a></li>
-            <li><a href="Clases/Clases.html"><img src=".img/clases.jpg" alt="Agrupación de música andina uniformada con ruana roja"><h2>Clases personalizadas</h2></a></li>
-        </ul>
+        <p align="center"><font size="30"> <b>Hola Soy Juan carlos Canchachí. Mis amigos me conocen como Wayra Valentín. Soy músico, profesor y hago instrumentos.<br/>
+        Bienvenidx a mi web Tributo.</b></font><br/></p>
+        <!-- Contenedor -->
+        <section>
+        <!-- ítems -->
+            <article><a href="Presentaciones/Presentaciones.html"> <img src=".img/presentaciones.jpg" alt="Hombre tocando la quena"><h2>Presentaciones musicales en vivo</h2></a></article>
+            <article><a href="Tienda/Tienda.html"><img src=".img/fabricacion.jpeg" alt="Hombre sosteniendo una enorme zampoña"><h2>Fabricación de Intrumentos</h2></a></article>
+            <article><a href="Clases/Clases.html"><img src=".img/clases.jpg" alt="Agrupación de música andina uniformada con ruana roja"><h2>Clases personalizadas</h2></a></article>
+        </section>
         <h1>Trikay</h1>
     </main>
     <footer>
-        <ul>
-            <div align="left">
-                <p><h3>Juan Carlos Canchachí</h3><h3>Wayra Valentín</h3><h3>Correo: wayra@quenas.com</h3></p>
-            </div>
-            <div align="center">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </div>
-            <div align="right">
-                <p><h3>Sitio Construido Por</h3><img src=".img/LogoRojo.png" alt="Logo de una organizacion social de fondo rojo que dice Código Libre del pueblo pal pueblo DCP con letras qu parecen hoces y un martillo"></p>
-            </div>
-        </ul>
+        <section>
+            <article><font size="25"><strong>Juan Carlos Canchachí <br/>Wayra Valentín<br/> Correo: wayra@quenas.com<br/></strong> </font></article>
+            <article></article>
+            <article><font size="25"><strong>Sitio Construido Por<br/></strong><img src=".img/LogoRojo.png" width="170" height="160" align="center" alt="Logo de una organizacion social de fondo rojo que dice Código Libre del pueblo pal pueblo DCP con letras qu parecen hoces y un martillo"></p></font></article>
+        </section>
     </footer>
     
 </body>
